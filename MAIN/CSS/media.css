@@ -1,0 +1,240 @@
+@media only screen and  (min-width: 300px) and (max-width: 480px) { /*PHONES*/
+    /*HEADER*/
+    main .header-box {
+     height: 50%;
+     width: 90%;
+    }
+
+    main .header-box h1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    main .header-box .gradient-word {
+        font-size: 3rem;
+    }
+
+    main .header-box p {
+        margin: 1.5rem 2rem;
+    }
+
+    /*PRODUCTS*/
+    main .products {
+        height: 80rem;
+        flex-direction: column;
+    }
+
+    main .products .product-box {
+        height: 30%;
+        width: 90%;
+    }
+    
+    .products h1 {
+        font-size: 1.8rem;
+    }
+
+    .products p {
+        font-size: 0.9rem;
+        height: 8rem;
+    }
+    
+    .products .button {
+        height: 3rem;
+        margin: 0 4rem;
+        margin-top: 6rem;
+    }
+
+        /*MEDIA SECTION*/
+    main .media {
+        height: 70rem;
+        flex-direction: column;
+    }
+
+    /*CONTACT*/
+    .media .contact-field {
+        height: 50%;
+        width: 90%;
+        margin-top: 4rem;
+    }
+
+    .contact-field input {
+        width: 17rem;
+    }
+
+    .contact-field button {
+        margin-top: 0;
+    }
+
+    .media .news-field {
+        height: 40%;
+        width: 90%;
+        margin-top: 2rem;
+    }
+
+    .news-field .box {
+        width: 85%;
+    }
+}
+
+@media only screen and  (min-width: 480px) and (max-width: 599px) { /*TABLETS*/
+    /*HEADER*/
+    main .header-box {
+        height: 50%;
+        width: 80%;
+    }
+
+    /*PRODUCTS*/
+    main .products {
+        height: 70rem;
+        flex-direction: column;
+    }
+
+    main .products .product-box {
+        height: 30%;
+        width: 75%;
+    }
+    
+    .products h1 {
+        font-size: 1.8rem;
+    }
+
+    .products p {
+        font-size: 0.9rem;
+        height: 8rem;
+    }
+    
+    .products .button {
+        height: 3rem;
+        margin: 0 6rem;
+        margin-top: 0rem;
+    }
+
+    /*MEDIA SECTION*/
+    main .media {
+        height: 60rem;
+        flex-direction: column;
+    }
+
+    /*CONTACT*/
+    .media .contact-field {
+        height: 50%;
+        width: 75%;
+        margin-top: 4rem;
+    }
+
+    .contact-field input {
+        width: 20rem;
+    }
+
+    .contact-field button {
+        margin-top: 0;
+    }
+
+    .media .news-field {
+        height: 40%;
+        width: 75%;
+        margin-top: 2rem;
+    }
+
+    .news-field .box {
+        width: 85%;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 900px) { /*SMALL COMPUTR SCREEN / TABLETS*/
+    /*HEADER*/
+    main .header-box {
+        height: 50%;
+        width: 75%;
+    }
+
+    /*PRODUCTS*/
+    main .products {
+        height: 60rem;
+        flex-direction: column;
+    }
+
+    main .products .product-box {
+        height: 30%;
+        width: 75%;
+    }
+    
+    .products h1 {
+        font-size: 1.8rem;
+    }
+
+    .products p {
+        font-size: 0.9rem;
+        height: 8rem;
+    }
+    
+    .products .button {
+        height: 3rem;
+        margin: 0 9rem;
+        margin-top: -2rem;
+    }
+
+    /*MEDIA SECTION*/
+    main .media {
+        height: 60rem;
+        flex-direction: column;
+    }
+
+    /*CONTACT*/
+    .media .contact-field {
+        height: 50%;
+        width: 75%;
+        margin-top: 4rem;
+    }
+
+    .contact-field input {
+        width: 20rem;
+    }
+
+    .contact-field button {
+        margin-top: 0;
+    }
+
+    .media .news-field {
+        height: 40%;
+        width: 75%;
+        margin-top: 2rem;
+    }
+
+    .news-field .box {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 900px ) and (max-width:1350px) { /*MID-SIZED COMPUTER SCREEN*/
+    /*HEADER*/
+    main .header-box {
+        height: 50%;
+        width: 43%;
+    }
+
+    /*PRODUCTS*/
+    main .products .product-box {
+        height: 80%;
+    }
+    
+    .products h1 {
+        font-size: 1.8rem;
+    }
+
+    .products p {
+        font-size: 0.9rem;
+        height: 15rem;
+    }
+    
+    .products .button {
+        height: 3rem;
+        margin: 0 4rem;
+    }
+
+    /*CONTACT*/
+    .contact-field input {
+        width: 18rem;
+    }
+}
